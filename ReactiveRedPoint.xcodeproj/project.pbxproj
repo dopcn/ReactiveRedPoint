@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8788337A1EF3719F006F8E60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 878833791EF3719F006F8E60 /* main.m */; };
+		8788337D1EF3719F006F8E60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8788337C1EF3719F006F8E60 /* AppDelegate.m */; };
+		878833801EF3719F006F8E60 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8788337F1EF3719F006F8E60 /* FirstViewController.m */; };
+		878833831EF3719F006F8E60 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878833821EF3719F006F8E60 /* SecondViewController.m */; };
+		878833861EF3719F006F8E60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878833841EF3719F006F8E60 /* Main.storyboard */; };
+		878833881EF3719F006F8E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878833871EF3719F006F8E60 /* Assets.xcassets */; };
+		8788338B1EF3719F006F8E60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878833891EF3719F006F8E60 /* LaunchScreen.storyboard */; };
+		878833961EF3719F006F8E60 /* ReactiveRedPointTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 878833951EF3719F006F8E60 /* ReactiveRedPointTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		878833921EF3719F006F8E60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8788336D1EF3719F006F8E60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 878833741EF3719F006F8E60;
+			remoteInfo = ReactiveRedPoint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		878833751EF3719F006F8E60 /* ReactiveRedPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveRedPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		878833791EF3719F006F8E60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8788337B1EF3719F006F8E60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8788337C1EF3719F006F8E60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8788337E1EF3719F006F8E60 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		8788337F1EF3719F006F8E60 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		878833811EF3719F006F8E60 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		878833821EF3719F006F8E60 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		878833851EF3719F006F8E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		878833871EF3719F006F8E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8788338A1EF3719F006F8E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8788338C1EF3719F006F8E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878833911EF3719F006F8E60 /* ReactiveRedPointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveRedPointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		878833951EF3719F006F8E60 /* ReactiveRedPointTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveRedPointTests.m; sourceTree = "<group>"; };
+		878833971EF3719F006F8E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		878833721EF3719F006F8E60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8788338E1EF3719F006F8E60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8788336C1EF3719F006F8E60 = {
+			isa = PBXGroup;
+			children = (
+				878833771EF3719F006F8E60 /* ReactiveRedPoint */,
+				878833941EF3719F006F8E60 /* ReactiveRedPointTests */,
+				878833761EF3719F006F8E60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		878833761EF3719F006F8E60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				878833751EF3719F006F8E60 /* ReactiveRedPoint.app */,
+				878833911EF3719F006F8E60 /* ReactiveRedPointTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		878833771EF3719F006F8E60 /* ReactiveRedPoint */ = {
+			isa = PBXGroup;
+			children = (
+				8788337B1EF3719F006F8E60 /* AppDelegate.h */,
+				8788337C1EF3719F006F8E60 /* AppDelegate.m */,
+				8788337E1EF3719F006F8E60 /* FirstViewController.h */,
+				8788337F1EF3719F006F8E60 /* FirstViewController.m */,
+				878833811EF3719F006F8E60 /* SecondViewController.h */,
+				878833821EF3719F006F8E60 /* SecondViewController.m */,
+				878833841EF3719F006F8E60 /* Main.storyboard */,
+				878833871EF3719F006F8E60 /* Assets.xcassets */,
+				878833891EF3719F006F8E60 /* LaunchScreen.storyboard */,
+				8788338C1EF3719F006F8E60 /* Info.plist */,
+				878833781EF3719F006F8E60 /* Supporting Files */,
+			);
+			path = ReactiveRedPoint;
+			sourceTree = "<group>";
+		};
+		878833781EF3719F006F8E60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				878833791EF3719F006F8E60 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		878833941EF3719F006F8E60 /* ReactiveRedPointTests */ = {
+			isa = PBXGroup;
+			children = (
+				878833951EF3719F006F8E60 /* ReactiveRedPointTests.m */,
+				878833971EF3719F006F8E60 /* Info.plist */,
+			);
+			path = ReactiveRedPointTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		878833741EF3719F006F8E60 /* ReactiveRedPoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8788339A1EF3719F006F8E60 /* Build configuration list for PBXNativeTarget "ReactiveRedPoint" */;
+			buildPhases = (
+				878833711EF3719F006F8E60 /* Sources */,
+				878833721EF3719F006F8E60 /* Frameworks */,
+				878833731EF3719F006F8E60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactiveRedPoint;
+			productName = ReactiveRedPoint;
+			productReference = 878833751EF3719F006F8E60 /* ReactiveRedPoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		878833901EF3719F006F8E60 /* ReactiveRedPointTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8788339D1EF3719F006F8E60 /* Build configuration list for PBXNativeTarget "ReactiveRedPointTests" */;
+			buildPhases = (
+				8788338D1EF3719F006F8E60 /* Sources */,
+				8788338E1EF3719F006F8E60 /* Frameworks */,
+				8788338F1EF3719F006F8E60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				878833931EF3719F006F8E60 /* PBXTargetDependency */,
+			);
+			name = ReactiveRedPointTests;
+			productName = ReactiveRedPointTests;
+			productReference = 878833911EF3719F006F8E60 /* ReactiveRedPointTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8788336D1EF3719F006F8E60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = fengweizhou;
+				TargetAttributes = {
+					878833741EF3719F006F8E60 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = XPEGGG8TY7;
+						ProvisioningStyle = Automatic;
+					};
+					878833901EF3719F006F8E60 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = XPEGGG8TY7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 878833741EF3719F006F8E60;
+					};
+				};
+			};
+			buildConfigurationList = 878833701EF3719F006F8E60 /* Build configuration list for PBXProject "ReactiveRedPoint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8788336C1EF3719F006F8E60;
+			productRefGroup = 878833761EF3719F006F8E60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				878833741EF3719F006F8E60 /* ReactiveRedPoint */,
+				878833901EF3719F006F8E60 /* ReactiveRedPointTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		878833731EF3719F006F8E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8788338B1EF3719F006F8E60 /* LaunchScreen.storyboard in Resources */,
+				878833881EF3719F006F8E60 /* Assets.xcassets in Resources */,
+				878833861EF3719F006F8E60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8788338F1EF3719F006F8E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		878833711EF3719F006F8E60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878833831EF3719F006F8E60 /* SecondViewController.m in Sources */,
+				8788337D1EF3719F006F8E60 /* AppDelegate.m in Sources */,
+				878833801EF3719F006F8E60 /* FirstViewController.m in Sources */,
+				8788337A1EF3719F006F8E60 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8788338D1EF3719F006F8E60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878833961EF3719F006F8E60 /* ReactiveRedPointTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		878833931EF3719F006F8E60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 878833741EF3719F006F8E60 /* ReactiveRedPoint */;
+			targetProxy = 878833921EF3719F006F8E60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		878833841EF3719F006F8E60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				878833851EF3719F006F8E60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		878833891EF3719F006F8E60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8788338A1EF3719F006F8E60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		878833981EF3719F006F8E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		878833991EF3719F006F8E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8788339B1EF3719F006F8E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XPEGGG8TY7;
+				INFOPLIST_FILE = ReactiveRedPoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengweizhou.ReactiveRedPoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8788339C1EF3719F006F8E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XPEGGG8TY7;
+				INFOPLIST_FILE = ReactiveRedPoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengweizhou.ReactiveRedPoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8788339E1EF3719F006F8E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XPEGGG8TY7;
+				INFOPLIST_FILE = ReactiveRedPointTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengweizhou.ReactiveRedPointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveRedPoint.app/ReactiveRedPoint";
+			};
+			name = Debug;
+		};
+		8788339F1EF3719F006F8E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XPEGGG8TY7;
+				INFOPLIST_FILE = ReactiveRedPointTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengweizhou.ReactiveRedPointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveRedPoint.app/ReactiveRedPoint";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		878833701EF3719F006F8E60 /* Build configuration list for PBXProject "ReactiveRedPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878833981EF3719F006F8E60 /* Debug */,
+				878833991EF3719F006F8E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8788339A1EF3719F006F8E60 /* Build configuration list for PBXNativeTarget "ReactiveRedPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8788339B1EF3719F006F8E60 /* Debug */,
+				8788339C1EF3719F006F8E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8788339D1EF3719F006F8E60 /* Build configuration list for PBXNativeTarget "ReactiveRedPointTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8788339E1EF3719F006F8E60 /* Debug */,
+				8788339F1EF3719F006F8E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8788336D1EF3719F006F8E60 /* Project object */;
+}
