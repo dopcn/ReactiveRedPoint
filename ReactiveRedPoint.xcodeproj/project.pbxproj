@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8715D27B1EF9854E00C20C20 /* RedPointSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 8715D27A1EF9854E00C20C20 /* RedPointSignal.m */; };
+		8715D27E1EFA656400C20C20 /* UIView+RedPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8715D27D1EFA656400C20C20 /* UIView+RedPoint.m */; };
 		8788337A1EF3719F006F8E60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 878833791EF3719F006F8E60 /* main.m */; };
 		8788337D1EF3719F006F8E60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8788337C1EF3719F006F8E60 /* AppDelegate.m */; };
 		878833801EF3719F006F8E60 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8788337F1EF3719F006F8E60 /* FirstViewController.m */; };
@@ -15,6 +17,8 @@
 		878833881EF3719F006F8E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878833871EF3719F006F8E60 /* Assets.xcassets */; };
 		8788338B1EF3719F006F8E60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878833891EF3719F006F8E60 /* LaunchScreen.storyboard */; };
 		878833961EF3719F006F8E60 /* ReactiveRedPointTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 878833951EF3719F006F8E60 /* ReactiveRedPointTests.m */; };
+		878833A21EF371BB006F8E60 /* RedPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 878833A11EF371BB006F8E60 /* RedPoint.m */; };
+		878833A81EF3B584006F8E60 /* RedPointManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 878833A71EF3B584006F8E60 /* RedPointManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8715D2791EF9854E00C20C20 /* RedPointSignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPointSignal.h; sourceTree = "<group>"; };
+		8715D27A1EF9854E00C20C20 /* RedPointSignal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPointSignal.m; sourceTree = "<group>"; };
+		8715D27C1EFA656400C20C20 /* UIView+RedPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RedPoint.h"; sourceTree = "<group>"; };
+		8715D27D1EFA656400C20C20 /* UIView+RedPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RedPoint.m"; sourceTree = "<group>"; };
 		878833751EF3719F006F8E60 /* ReactiveRedPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveRedPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		878833791EF3719F006F8E60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8788337B1EF3719F006F8E60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,6 +51,10 @@
 		878833911EF3719F006F8E60 /* ReactiveRedPointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveRedPointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		878833951EF3719F006F8E60 /* ReactiveRedPointTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveRedPointTests.m; sourceTree = "<group>"; };
 		878833971EF3719F006F8E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878833A01EF371BB006F8E60 /* RedPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPoint.h; sourceTree = "<group>"; };
+		878833A11EF371BB006F8E60 /* RedPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPoint.m; sourceTree = "<group>"; };
+		878833A61EF3B584006F8E60 /* RedPointManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPointManager.h; sourceTree = "<group>"; };
+		878833A71EF3B584006F8E60 /* RedPointManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPointManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +107,14 @@
 				878833891EF3719F006F8E60 /* LaunchScreen.storyboard */,
 				8788338C1EF3719F006F8E60 /* Info.plist */,
 				878833781EF3719F006F8E60 /* Supporting Files */,
+				8715D27C1EFA656400C20C20 /* UIView+RedPoint.h */,
+				8715D27D1EFA656400C20C20 /* UIView+RedPoint.m */,
+				878833A01EF371BB006F8E60 /* RedPoint.h */,
+				878833A11EF371BB006F8E60 /* RedPoint.m */,
+				8715D2791EF9854E00C20C20 /* RedPointSignal.h */,
+				8715D27A1EF9854E00C20C20 /* RedPointSignal.m */,
+				878833A61EF3B584006F8E60 /* RedPointManager.h */,
+				878833A71EF3B584006F8E60 /* RedPointManager.m */,
 			);
 			path = ReactiveRedPoint;
 			sourceTree = "<group>";
@@ -220,10 +240,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8715D27B1EF9854E00C20C20 /* RedPointSignal.m in Sources */,
 				878833831EF3719F006F8E60 /* SecondViewController.m in Sources */,
 				8788337D1EF3719F006F8E60 /* AppDelegate.m in Sources */,
+				878833A21EF371BB006F8E60 /* RedPoint.m in Sources */,
 				878833801EF3719F006F8E60 /* FirstViewController.m in Sources */,
+				8715D27E1EFA656400C20C20 /* UIView+RedPoint.m in Sources */,
 				8788337A1EF3719F006F8E60 /* main.m in Sources */,
+				878833A81EF3B584006F8E60 /* RedPointManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +448,7 @@
 				8788339C1EF3719F006F8E60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8788339D1EF3719F006F8E60 /* Build configuration list for PBXNativeTarget "ReactiveRedPointTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +457,7 @@
 				8788339F1EF3719F006F8E60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
